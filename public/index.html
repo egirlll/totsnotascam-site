@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>totsnotascam</title>
+    <meta name="description" content="it's tots not a scam ~" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-a"></div>
+    <div class="ambient ambient-b"></div>
+    <div class="ambient ambient-c"></div>
+    <div class="heart-rain" aria-hidden="true"></div>
+    <p class="watermark watermark-a">tots not</p>
+    <p class="watermark watermark-b">a scam</p>
+
+    <button class="menu-button" id="menuButton" type="button" aria-label="Open menu">☰</button>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <p class="sidebar-eyebrow">tots</p>
+        <h2>Menu</h2>
+      </div>
+      <nav class="sidebar-nav" aria-label="Main menu">
+        <a class="sidebar-link active" href="/">Home</a>
+        <a class="sidebar-link" href="#programs">Programs</a>
+        <a class="sidebar-link" href="#links">Links</a>
+        <a class="sidebar-link muted" href="#" aria-disabled="true">More Soon</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="landing">
+        <div class="landing-copy">
+          <p class="kicker">catfish findom</p>
+          <h1>tots</h1>
+          <p class="landing-line">it's tots not a scam ~ 💞</p>
+          <div class="landing-actions">
+            <a class="action primary" href="#" id="throneLink">Throne 💞</a>
+            <a class="action" href="#programs">See Programs</a>
+          </div>
+        </div>
+
+        <div class="portrait-frame">
+          <img class="portrait" src="/images/avatar.png" alt="avatar" />
+        </div>
+      </section>
+
+      <section class="program-strip" id="programs" aria-labelledby="programs-title">
+        <div class="strip-heading">
+          <div>
+            <p class="kicker">featured</p>
+            <h2 id="programs-title">programs</h2>
+          </div>
+        </div>
+
+        <div class="program-list">
+          <article
+            class="program-tile feature"
+            data-program="autodrain"
+            data-title="autodrain"
+            role="button"
+            tabindex="0"
+          >
+            <span class="tile-index">01</span>
+            <p class="tile-label">chrome extension</p>
+            <h3>autodrain</h3>
+            <p>lemme drain ur wallet while u goon ~ it's tots safe i promise 💞</p>
+          </article>
+          <article
+            class="program-tile coming-soon"
+            data-program="egirl-casino"
+            data-title="egirl casino"
+            data-coming-soon
+            role="button"
+            tabindex="0"
+          >
+            <span class="tile-index">02</span>
+            <p class="tile-label">coming soon!!</p>
+            <h3>egirl casino</h3>
+            <p>gamble ur money away for pretty girls ~ what could go wrong 🤭</p>
+          </article>
+          <article
+            class="program-tile coming-soon"
+            data-program="porn-lock"
+            data-title="porn lock"
+            data-coming-soon
+            role="button"
+            tabindex="0"
+          >
+            <span class="tile-index">03</span>
+            <p class="tile-label">coming soon!!</p>
+            <h3>porn lock</h3>
+            <p>lock ur pc for egirl content ~ u tots won't regret it >.< </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="links-section" id="links">
+        <div class="strip-heading">
+          <div>
+            <p class="kicker">connect</p>
+            <h2>links</h2>
+          </div>
+        </div>
+
+        <div class="link-list">
+          <a class="link-row" href="#" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">👑</div>
+            <div class="link-text">
+              <strong>Throne</strong>
+              <small>send me stuff ~ u know u want to</small>
+            </div>
+          </a>
+          <a class="link-row" href="https://x.com/totsnotascam" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">🐦</div>
+            <div class="link-text">
+              <strong>Twitter</strong>
+              <small>follow me ~ i tots won't ruin ur life</small>
+            </div>
+          </a>
+          <a class="link-row" href="#" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">💬</div>
+            <div class="link-text">
+              <strong>Discord</strong>
+              <small>come hang with all my other addicts</small>
+            </div>
+          </a>
+          <a class="link-row" href="#" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">₿</div>
+            <div class="link-text">
+              <strong>Crypto</strong>
+              <small>dm for wallet addresses ~</small>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="download-modal" id="downloadModal" aria-hidden="true">
+      <div class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+        <button class="download-close" id="downloadClose" type="button" aria-label="Close">✕</button>
+        <p class="kicker" id="detailKicker">program</p>
+        <h2 id="detailTitle">program</h2>
+        <p class="detail-desc" id="detailDesc"></p>
+        <div class="detail-download">
+          <p class="download-hint" id="downloadHint"></p>
+          <form id="downloadForm">
+            <input id="downloadPassword" name="password" type="password" placeholder="enter password" autocomplete="off" required />
+            <button class="action primary" type="submit">download</button>
+          </form>
+          <p class="download-status" id="downloadStatus" role="status"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/ui.js"></script>
+  </body>
+</html>
