@@ -96,7 +96,7 @@ const openModal = (tile) => {
   if (downloadHint) {
     downloadHint.textContent = isComingSoon
       ? "dm @totsnotascam on twitter to pre-order 💞"
-      : "dm @totsnotascam on twitter for the password 💞";
+      : "dm @totsnotascam on twitter for access 💞";
   }
 
   if (downloadForm) downloadForm.hidden = isComingSoon;
