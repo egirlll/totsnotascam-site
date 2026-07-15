@@ -181,9 +181,9 @@ main { width: min(1180px, 92vw); margin: 0 auto; }
 h1, h2, h3, h4 { margin: 0; font-family: "Syne", "Outfit", sans-serif; }
 
 .landing h1 {
-  font-size: clamp(4rem, 16vw, 12rem);
-  line-height: 0.78;
-  letter-spacing: -0.08em;
+  font-size: clamp(3rem, 10vw, 7rem);
+  line-height: 0.85;
+  letter-spacing: -0.06em;
   text-transform: lowercase;
   text-shadow: 0 0 46px rgba(255, 141, 203, 0.18);
 }
@@ -214,8 +214,8 @@ h1, h2, h3, h4 { margin: 0; font-family: "Syne", "Outfit", sans-serif; }
 }
 
 .portrait-frame {
-  width: min(430px, 78vw);
-  aspect-ratio: 1 / 1;
+  width: min(380px, 72vw);
+  aspect-ratio: 3 / 4;
   justify-self: center;
   border-radius: 36px;
   padding: 0;
